@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.6"
+    "@types/node": "^18.0.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sequelize": "^6.37.5",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
   }
 }
